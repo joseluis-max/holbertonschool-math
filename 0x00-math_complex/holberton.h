@@ -2,10 +2,9 @@
 #define _HOLBERTON_H_
 
 /**
- * struct complex - define a complex number
+ * struct complex_s - define a complex number
  * @re: real part
  * @im: imaginary part
- * @sign: sign of complex
  * Description: struct for represent a complex number
  */
 struct complex_s

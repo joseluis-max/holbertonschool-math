@@ -23,15 +23,15 @@ void display_complex_number(complex c)
 			printf(" - ");
 		if (c.im > 0 && c.im != 1)
 			printf("%0.fi", c.im);
-		if (c.im == 1)
+		else if (c.im == 1)
 			printf("i");
-		if (c.im < 0 && c.re != 0 && c.im != -1)
+		else if (c.im < 0 && c.re != 0 && c.im != -1)
 			printf("%0.fi", c.im * -1);
-		if (c.im < 0 && c.re != 0 && c.im == -1)
+		else if (c.im < 0 && c.re != 0 && c.im == -1)
 			printf("i");
-		if (c.im < 0 && c.re == 0 && c.im != -1)
+		else if (c.im < 0 && c.re == 0 && c.im != -1)
 			printf("%gi", c.im);
-		if (c.im < 0 && c.re == 0 && c.im == -1)
+		else if (c.im < 0 && c.re == 0 && c.im == -1)
 			printf("i");
 	}
 	printf("\n");
