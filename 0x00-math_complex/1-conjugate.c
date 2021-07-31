@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <stdio.h>
 /**
  * conjugate - make the conjugate of a complex
  * @c: complex number
@@ -7,9 +6,6 @@
  */
 complex conjugate(complex c)
 {
-	if (SIGN == '+')
-		#define SIGN '-'
-	else
-		#define SIGN '+'
+	c.im  *= -1;
 	return (c);
 }

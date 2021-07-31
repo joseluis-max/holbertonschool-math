@@ -1,8 +1,6 @@
 #ifndef _HOLBERTON_H_
 #define _HOLBERTON_H_
 
-#define SIGN '+'
-
 /**
  * struct complex - define a complex number
  * @re: real part
