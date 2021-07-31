@@ -6,10 +6,10 @@
  */
 void display_complex_number(complex c)
 {
-		printf("%0.f", c.re);
-		if (c.im != 0)
-		{
-			printf(" + %0.fi", c.im);
-		}
-		printf("\n");
+	printf("%0.f", c.re);
+	if (c.im != 0)
+	{
+		printf(" %c %0.fi", SIGN, c.im);
+	}
+	printf("\n");
 }
