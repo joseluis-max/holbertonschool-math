@@ -1,11 +1,11 @@
 #include "holberton.h"
 #include <math.h>
 /**
- * modules - calculating the modulus
+ * modulus - calculating the modulus
  * @c: struct complex number
- * Retunr: modulus
+ * Return: modulus
  */
 double modulus(complex c)
 {
-	return (sqrt(c.re + c.im));
+	return (sqrt(pow(c.re, 2) + pow(c.im, 2)));
 }
